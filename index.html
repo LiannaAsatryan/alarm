@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alarm Clock</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="clock">
+    <div class="time"></div>
+    <div class="date"></div>
+    <input type="datetime-local" id="alarmDateTime">
+    <button id="setAlarm" class="setAlarm">Set Alarm</button>
+    <button id="stopAlarm" class="stopAlarm" style="display:none;">Stop Alarm</button>
+</div>
+<div class="alarm" style="display:none;">
+    <button id = 'stop' class="stop">Stop</button>
+    <button id = 'snooze' class="snooze">Snooze</button>
+    <h1 id="time"></h1>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>

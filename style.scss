@@ -1,0 +1,66 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+
+  .clock {
+    margin-top: 50px;
+
+    .time {
+      font-size: 2em;
+      margin-bottom: 10px;
+    }
+
+    .date {
+      font-size: 1.2em;
+      margin-bottom: 20px;
+    }
+
+    .stopAlarm {
+      background-color: crimson;
+      cursor: pointer;
+    }
+
+    .setAlarm {
+      background-color: lightgreen;
+      cursor: pointer;
+    }
+  }
+
+  .alarm {
+    display: flex;
+    max-width: 1000px;
+    height: 500px;
+    background-image: url('./media/empty-alarm.png');
+    background-size: cover;
+    margin-inline: auto;
+    //margin-top: 50px;
+    margin: 50px auto 0;
+    background-position: center;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+    .stop {
+      margin-top: 50px;
+      min-width: 70px;
+      height: 30px;
+      background-color: crimson;
+      cursor: pointer;
+    }
+
+    .snooze {
+      margin-top: 50px;
+      min-width: 70px;
+      height: 30px;
+      background-color: goldenrod;
+      cursor: pointer;
+    }
+
+    h1 {
+      color: aliceblue;
+      font-size: 100px;
+      margin-top: 120px;
+    }
+  }
+}
+
